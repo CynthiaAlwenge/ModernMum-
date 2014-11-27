@@ -1,0 +1,102 @@
+
+h2{
+	text-align: center;
+	font-size: 24px;
+}
+
+hr{
+	margin-bottom: 30px;
+}
+
+div.container{
+	width: 960px;
+	height: 610px;
+	margin:50px auto;
+	font-family: 'Droid Serif', serif;
+	position:relative;
+}
+nav{
+	background-color: #c1c3be;
+	height: 120px;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.29);
+	-moz-box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.29);
+	box-shadow: 1px 10px 5px 0px rgba(0,0,0,0.29);
+	z-index: 9999;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+nav ul li {display: inline;
+	margin-left: 100px;
+	padding: 35px;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 18px;
+	background-attachment: fixed;
+	margin-top: 9px;
+	color:#70a200;           
+}
+a {
+	color: #70a200;
+	display: inline-block;
+	text-decoration: none;
+	padding: 1.0em 2.5em;
+	margin: 5px 0.5em;
+	border-radius: 4px;
+	transition: all 0.3s ease 0s;
+}
+div.main{
+	width: 320px;
+	margin-top: 180px;
+	float:left;
+	padding: 10px 55px 40px;
+	background-color: #70a200;
+	border: 15px solid white;
+	box-shadow: 0 0 10px;
+	border-radius: 2px;
+	font-size: 13px;
+	margin-left: 300px;
+}
+
+input[type=text],[type=password] {
+	width: 97.7%;
+	height: 34px;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	margin-top: 8px;
+	box-shadow: 0 0 5px #af0066;
+	border: 2px solid #af0066;
+	color: #4f4f4f;
+	font-size: 16px;
+}
+#log{
+	float: left;
+	margin-left: 60px;
+	margin-top: -86px
+}
+label{
+	color: #464646;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#login {
+	width: 100%;
+	background: #af0066;
+	border: 1px solid #70a200;
+	font-size: 20px;
+	margin-top: 15px;
+	padding: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	text-shadow: 0px 1px 0px #13506D;
+}
+
+#login:hover{
+    background: linear-gradient(#af0066 5%, #70a200 100%);
+}
+
